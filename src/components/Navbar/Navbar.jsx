@@ -65,7 +65,7 @@ function NavBar() {
                 to="/skillset"
                 onClick={() => updateExpanded(false)}
               >
-                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
+                <GiSkills style={{ marginBottom: "2px" }} /> Compétences
               </Nav.Link>
             </Nav.Item>
 

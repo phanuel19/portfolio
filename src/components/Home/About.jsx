@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+
 
 
 
@@ -108,17 +108,7 @@ const About = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://github.com/phanuel19"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
-                    >
-                      <SiLeetcode />
-                    </a>
-                  </li>
+                  
                 </ul>
               </Col>
             </Row>

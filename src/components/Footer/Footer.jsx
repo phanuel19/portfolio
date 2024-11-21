@@ -5,8 +5,7 @@ import {
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import logo from "../../assets/sLogo.png";
+
 
 const Footer = () => {
     let date = new Date();
@@ -15,17 +14,17 @@ const Footer = () => {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-            <span>Dedicated to creating impactful solutions!</span>
+            <span>Prêt à affronter les défis de l'informatique!</span>
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+           
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
+                  href="https://github.com/phanuel19"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -36,7 +35,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
+                  href="https://github.com/phanuel19"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -47,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/19sajib/"
+                  href="https://www.linkedin.com/in/k-christ-phanuel-dagbo-113b19259/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -56,17 +55,7 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://leetcode.com/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="leetcode"
-                >
-                  <SiLeetcode />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>
