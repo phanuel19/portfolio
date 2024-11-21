@@ -19,7 +19,7 @@ const Projects = () => {
         <p style={{ color: "white" }}>
           Voici en quelque sorte les applications web ou mobile que j'ai conçu
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        {false ? (<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lift}
@@ -80,7 +80,7 @@ const Projects = () => {
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
           </Col>
-        </Row>
+        </Row>): (<div style={{height:'300px',color: "white",display:"flex",alignItems:"center",justifyContent:"center" }}><h2>Pas encore de projets</h2></div>)}
       </Container>
     </Container>
   )
