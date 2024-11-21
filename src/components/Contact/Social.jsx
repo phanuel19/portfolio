@@ -5,7 +5,6 @@ import {
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 import './Social.css'
 
 const Social = () => {
@@ -48,16 +47,6 @@ const Social = () => {
                       className="icon-color  contact-social-icons"
                     >
                       <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="contact-icons">
-                    <a
-                      href="hhttps://leetcode.com/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color contact-social-icons"
-                    >
-                      <SiLeetcode />
                     </a>
                   </li>
                 </ul>
