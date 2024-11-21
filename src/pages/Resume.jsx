@@ -9,9 +9,9 @@ import pdf from "../assets/DagboKadyChristPhanuel_SIGL3_24-25.pdf"
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.mjs`;
 
-const resumeLink = `https://github.com/phanuel19/portfolio/main/src/assets/DagboKadyChristPhanuel_SIGL3_24-25.pdf`
+const resumeLink = `https://raw.githubusercontent.com/phanuel19/portfolio/main/src/assets/DagboKadyChristPhanuel_SIGL3_24-25.pdf`;
 
 
 const Resume = () => {
