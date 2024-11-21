@@ -25,9 +25,8 @@ const Contact = () => {
       //  Please use your own credentials from emailjs or i will recive your email
 
       emailjs
-        .sendForm("service_8vc69n9", "template_5jvajkn", form.current, {
-          publicKey: 'dAXwG0yV7P3av_3no',
-        })
+        .sendForm("service_8vc69n9", "template_pmsbeew", form.current,  "dAXwG0yV7P3av_3no",
+        )
         .then(
           (result) => {
             console.log(result.text);
@@ -44,8 +43,8 @@ const Contact = () => {
     <Container style={{ paddingTop: "50px" }}>
       <Row>
         <Col md={6} className="c-left">
-          <h1>Get in Touch</h1>
-          <h1 className="yellow">Contact me</h1>
+          <h1>Rentrons en contact ici</h1>
+          <h1 className="yellow">Ecrivez-moi</h1>
         </Col>
         <Col md={6} className="c-right">
           <form ref={form} onSubmit={sendEmail}>
@@ -53,7 +52,7 @@ const Contact = () => {
               type="text"
               name="from_name"
               className="user"
-              placeholder="Name"
+              placeholder="Nom"
               onChange={handleChange}
             />
             <input
@@ -70,7 +69,7 @@ const Contact = () => {
               onChange={handleChange}
             />
             <span className="not-done">
-              {notDone && "Please, fill all the input field"}
+              {notDone && "Svp, ne laissez pas le champ vide"}
             </span>
             <Button type="submit" className="button" disabled={done}>
               Envoyer

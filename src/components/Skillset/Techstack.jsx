@@ -4,16 +4,12 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiGit,
 } from "react-icons/di";
 import {
-
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
   SiMongodb,
   SiHtml5,
-  SiMaterialdesign
+  SiCss3,
+  SiFirebase,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -21,33 +17,31 @@ const Techstack = () => {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
+        <h4>Html 5</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3/>
+        <h4>Css 3</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <h4>Javascript</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <h4>Node Js</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <h4>React</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
+        <h4>MongoDb</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialdesign/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiFirebase />
+        <h4>Firebase</h4>
       </Col>
     </Row>
   );

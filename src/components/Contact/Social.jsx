@@ -11,44 +11,46 @@ const Social = () => {
   return (
     <Container style={{padding: '30px'}}>
     <Row>
-              <Col md={12} className="contact-social">
-                <div className='contact-text'>
-                <h1>FIND ME ON</h1>
+              <Col md={12} className="home-about-social">
+                <h1>RETROUVEZ MOI AUSSI SUR</h1>
                 <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                n'hésitez pas à m'écrire ou <span className="yellow">me suivre.</span>
                 </p>
-                </div>
-                <ul className="contact-social-links">
-                  <li className="contact-icons">
+                <ul className="home-about-social-links">
+                  <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/phanuel19"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="github"
                     >
                       <AiFillGithub />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://github.com/phanuel19"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="twitter"
                     >
                       <AiOutlineTwitter />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/k-christ-phanuel-dagbo-113b19259/"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="linkedin"
                     >
                       <FaLinkedinIn />
                     </a>
                   </li>
+                  
                 </ul>
               </Col>
             </Row>
