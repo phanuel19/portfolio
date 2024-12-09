@@ -25,7 +25,7 @@ const About = () => {
                  et je suis à <span className="yellow"> Abidjan Treichville</span>
                 <br />
                 <br />
-                Je suit une formation de Génie Logiciel à L'Esatic
+                Je suis une formation de Génie Logiciel à L'ESATIC
                 <br />
                 <br />
                   En tant que 
@@ -52,7 +52,7 @@ const About = () => {
                   </i>
                   <br />
                   <br />
-                  Je suis aussi Interessé à creation de nouvelles
+                  Je suis aussi Interessé à la création de nouveaux
                   <i>
                     <b className="yellow"> Produits et Technologies du Web , </b>
                     et aussi explorer l'univers de la
